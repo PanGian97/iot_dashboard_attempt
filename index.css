@@ -1,0 +1,52 @@
+#messages
+{
+background-color:yellow;
+font-size:3;
+font-weight:bold;
+line-height:140%;
+}
+#status
+{
+background-color:red;
+font-size:4;
+font-weight:bold;
+color:white;
+line-height:140%;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+  }
+  h2{
+    display:inline-block;
+    
+  }
+
+  :root {
+    
+    --online-status-color:#ABFF00;
+    --online-status-shadow:rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+    --offline-status-color:rgb(219, 33, 16);
+    --offline-status-shadow:rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  }
+  #led_status {
+    display:inline-block;
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(77, 72, 49);
+    border-radius: 50%;
+    /* box-shadow:  */
+  }
+
+  
+ 
